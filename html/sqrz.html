@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>桔子空间－连锁联合创业办公孵化空间</title>
+		<link rel="shortcut icon" href="../img/index_img/桔子ico.ico">
+		<link rel="stylesheet" type="text/css" href="../css/money_css/sqrz.css"/>
+	</head>
+	<body>
+		<div id="wrap">
+			<div class="content">
+				<div class="form_title">
+					桔子空间入驻申请表
+				</div>
+				<form action="../../php/code/money_php/sqrz.php" method="post" enctype="multipart/form-data">
+					<div>
+						<label>项目名称*</label>
+						<br>
+						<input type="text" name="project_name" class="project_name" autocomplete="off" />
+					</div>
+					<div>
+						<label>一句话描述您的项目*</label>
+						<br>
+						<input type="text" name="description" class="description" autocomplete="off" />
+					</div>
+					<div>
+						<label>细分行业*</label>
+						<br>
+						<select name="industry" class="industry">
+							<option value="其他">其他</option>
+							<option value="电子商务">电子商务</option>
+							<option value="社交网络">社交网络</option>
+							<option value="智能硬件">智能硬件</option>
+							<option value="媒体门户">媒体门户</option>
+							<option value="工具软件">工具软件</option>
+							<option value="消费生活">消费生活</option>
+							<option value="金融">金融</option>
+							<option value="医疗健康">医疗健康</option>
+							<option value="企业服务">企业服务</option>
+							<option value="旅游户外">旅游户外</option>
+							<option value="房产家居">房产家居</option>
+							<option value="游戏">游戏</option>
+							<option value="在线教育">在线教育</option>
+							<option value="汽车交通">汽车交通</option>
+							<option value="文化娱乐">文化娱乐</option>
+						</select>
+					</div>
+					<div>
+						<label>申请人姓名*</label>
+						<br>
+						<input type="text" name="connact_name" class="connact_name" autocomplete="off" />
+					</div>
+					<div>
+						<label>申请人职位*</label>
+						<br>
+						<input type="text" name="position" class="position" autocomplete="off" />
+					</div>
+					<div>
+						<label>手机号码*</label>
+						<br>
+						<input type="text" name="connact_phone" class="connact_phone" autocomplete="off" />
+					</div>
+					<div>
+						<label>邮箱地址*</label>
+						<br>
+						<input type="text" name="connact_email" class="connact_email" autocomplete="off" />
+					</div>
+					<div>
+						<label>租赁月数*[请输入数字]</label>
+						<br>
+						<input type="text" name="month" class="month" autocomplete="off" />
+					</div>
+					<div>
+						<label>需要工位个数*[请输入数字]</label>
+						<br>
+						<input type="text" name="seat_num" class="seat_num" autocomplete="off" />
+					</div>
+					<div>
+						<label>上传商业计划书*</label>
+						<br>
+						<input type="file" name="file" id="file"/>
+						提示:
+						<br>
+						1、请确认你的商业计划书是PDF、PPT、PPTX、DOC、DOCX这五种格式之一。
+						<br>
+						2、请确认你的商业计划书大小在10M以内。
+						<br>
+						3、点击提交时上传文件。 
+					</div>
+					<div>
+						<label>选择场地*</label>
+						<br>
+						<label>
+							<input type="radio" name="space" id="space" value="上海江湾桔子空间" />
+							上海江湾桔子空间
+						</label>
+						<label>
+							<input type="radio" name="space" id="space" value="上海徐汇万科桔子空间" />
+							上海徐汇万科桔子空间
+						</label>
+						<label>
+							<input type="radio" name="space" id="space" value="武汉光谷桔子空间" />
+							武汉光谷桔子空间
+						</label>
+						<label>
+							<input type="radio" name="space" id="space" value="上海呼兰路桔子空间" />
+							上海呼兰路桔子空间
+						</label>
+						<label>
+							<input type="radio" name="space" id="space" value="绍兴绍兴桔子空间" />
+							绍兴绍兴桔子空间
+						</label>
+						<label>
+							<input type="radio" name="space" id="space" value="上海五角场创客空间" />
+							上海五角场创客空间
+						</label>
+						<label>
+							<input type="radio" name="space" id="space" value=" 上海桔子空间城市概念店" />
+							 上海桔子空间城市概念店
+						</label>
+					</div>
+					<div>
+						<label>项目所在阶段*</label>
+						<br>
+						<label>
+							<input type="radio" name="financ_stage" id="financ_stage" value=" 未融资" />
+							 未融资
+						</label>
+						<label>
+							<input type="radio" name="financ_stage" id="financ_stage" value="种子/天使" />
+							种子/天使
+						</label>
+						<label>
+							<input type="radio" name="financ_stage" id="financ_stage" value="Pre-A轮" />
+							Pre-A轮
+						</label>
+						<label>
+							<input type="radio" name="financ_stage" id="financ_stage" value="A轮" />
+							A轮
+						</label>
+						<label>
+							<input type="radio" name="financ_stage" id="financ_stage" value="B轮及以上" />
+							B轮及以上
+						</label>
+					</div>
+					<div>
+						<label>您是从哪里知道我们的*</label>
+						<br>
+						<label>
+							<input type="radio" name="origin" id="origin" value="朋友圈" />
+							朋友圈
+						</label>
+						<label>
+							<input type="radio" name="origin" id="origin" value=" 公众号" />
+							 公众号
+						</label>
+						<label>
+							<input type="radio" name="origin" id="origin" value=" 线下活动" />
+							 线下活动
+						</label>
+						<label>
+							<input type="radio" name="origin" id="origin" value="朋友推荐" />
+							朋友推荐
+						</label>
+						<label>
+							<input type="radio" name="origin" id="origin" value=" IT桔子" />
+							 IT桔子
+						</label>
+						<label>
+							<input type="radio" name="origin" id="origin" value="搜索网站" />
+							搜索网站
+						</label>
+						<label>
+							<input type="radio" name="origin" id="origin" value=" 其他" />
+							 其他
+						</label>
+					</div>
+					<div class="bar_submit">
+						<input type="submit" name="submit" id="submit" value="提交" />
+					</div>
+				</form>
+				<div class="bar_bottom">
+					<span class="topic">
+						<a href="index.html">桔子空间 | 创业从这里开始</a>
+					</span>
+					<span class="num">备案号：沪ICP备15032244号</span>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="../js/money_js/sqrz.js" type="text/javascript" charset="utf-8"></script>
+</html>
