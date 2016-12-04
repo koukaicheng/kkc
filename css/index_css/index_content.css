@@ -1,0 +1,235 @@
+
+/*主要内容*/
+/*公司实力*/
+#total_num{
+	width: 100%;
+	height: 160px;
+	margin-top: 10px;
+}
+#total_num ul{
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+#total_num ul li {
+	width: 200px;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+}
+#total_num ul li span{
+	width: 120px;
+	margin: 10px auto;
+	height: 55px;
+	color: white;
+	font-size: 40px;
+	font-weight: 900;
+	padding: 5px;
+	border-radius: 4px;
+	background-color: #ef5a34;
+}
+#total_num ul li p{
+	color: black;
+	font-weight: 200;
+}
+/*我要融资*/
+#rongzi{
+	width: 100%;
+	height: 250px;
+	background-image: url(../../img/index_img/bg.png);
+	background-position: 0% 100%;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+}
+#rongzi p{
+	font-size: 32px;
+	font-weight: 100;
+	margin: 5px auto;
+}
+#rongzi p:nth-child(3){
+	font-weight: 600;
+}
+#rongzi a{
+	padding: 5px 20px;
+	border: 1px solid rgb(228,82,46);
+	color: rgb(228,82,46);
+	width:56px;height: 21px;
+	font-size: 14px;
+	margin: auto;
+}
+#rongzi a:hover{
+	color: white;
+	background: rgb(228,82,46);
+}
+/*活动详情*/
+#hdxq{
+	width: 1080px;
+	margin: 40px auto;
+	box-shadow: 0px 0px 0px #bbb;
+	margin-top: 35px;
+}
+#hdxq .hdxq_list{
+	width: 900px;height: 60px;
+	margin: 0 auto;
+	border-bottom: 1px solid #eee;
+	padding: 30px 0px;
+	cursor: pointer;
+}
+#hdxq .hdxq_list .hdxq_date{
+	width: 130px;height: 50px;
+	background-color: #f3f3f3;
+	color: rgb(228,82,46);
+	float: left;
+	margin-right: 40px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 50px;
+}
+#hdxq .hdxq_list .hdxq_title{
+	color: black;
+	font-weight: bold;
+	font-size: 1.17em;
+}
+#hdxq .hdxq_list .hdxq_sort{
+	display: inline-block;
+	height: 18px;
+	background: #F3F3F3;
+	color: rgb(228,82,46);
+	font-size: 12px;
+	margin-right: 40px;
+	padding: 0px 20px;
+	margin-top: 20px;
+}
+#hdxq .hdxq_list .hdxq_img{
+	margin: 0px 10px;
+	margin-left: 20px;
+}
+#hdxq .hdxq_list .hdxq_address{
+	font-size: 14px;
+	color: #666;
+	display: inline;
+}
+#hdxq .hdxq_list .hdxq_state{
+	width: 100px;height: 30px;
+	border-radius: 5px;
+	float: right;
+	margin: 10px 0px;
+	outline: none;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgb(228,82,46);
+	color: white;
+	font-size: 12px;
+	line-height: 30px;
+	margin-top: -17px;
+}
+#hdxq .hdxq_list:hover .hdxq_date{
+	background-color: rgb(228,80,46);
+	color: white;
+}
+#hdxq .hdxq_list:hover .hdxq_title{
+	color: rgb(228,80,46);
+}
+#hdxq .hdxq_a{
+	width: 300px;height: 24px;
+	margin: 50px auto;
+	border: 1px solid #ddd;
+	text-align: center;
+	padding-top: 6px;
+	font-size: 14px;
+	color: #333;
+	cursor: pointer;
+}
+/*桔子活动分类简介*/
+#activity{
+	width: 100%;height: 300px;
+	padding-top: 10px;
+}
+#activity ul{
+	width: 980px;height: 280px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+#activity ul li{
+	width: 300px;height: 90px;
+	float: left;
+	padding: 20px 10px;
+}
+#activity ul a:nth-child(1) li{
+	border-bottom: 1px solid #eee;
+}
+#activity ul a:nth-child(2) li{
+	border-bottom: 1px solid #eee;
+}
+#activity ul a:nth-child(3) li{
+	border-bottom: 1px solid #eee;
+}
+#activity ul li .icon{
+	width: 30px;height: 30px;
+	margin: 0px 10px;
+	float: left;
+	margin-bottom: 60px;
+}
+#activity ul li h3{
+	font-size: 16px;
+	color: black;
+}
+#activity ul li p{
+	font-size: 12px;
+	margin: 5px 0px;
+	color: black;
+	font-weight: 600;
+}
+/*合作公司*/
+#partner{
+	width: 100%;height: 700px;
+	margin: 0 auto;
+	background-color: white;
+}
+#partner .hover_title{
+	width: 900px;height: 100px;
+	margin: 0 auto;
+}
+#partner .hover_title div{
+	width: 160px;
+	margin: 0 70px;
+	float: left;
+	text-align: center;
+	color: black;
+	font-size: 26px;
+	padding-top: 40px;
+	font-weight: 500;
+	cursor: pointer;
+}
+#partner .hover_title .abcd{
+	color: rgb(228,82,46);
+	border-bottom: 2px solid rgb(228,82,46);
+}
+#partner .partner_pic{
+	width: 960px;
+	margin: 20px auto;
+}
+#partner .partner_pic a{
+	float: left;
+	width: 160px;
+	cursor: pointer;
+}
+#partner .partner_pic img{
+	width: 150px;height: 67px;
+	margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

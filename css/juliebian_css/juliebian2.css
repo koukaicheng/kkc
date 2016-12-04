@@ -1,0 +1,330 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  background-color: #252434;
+ font-family: "微软雅黑","Arial","Microsoft yahei", "Hiragino Sans GB", "冬青黑体简体中文 w3", "Microsoft Yahei", "Hiragino Sans GB", "冬青黑体简体中文 w3", STXihei, "华文细黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+  min-width: 800px;
+}
+a{
+  text-decoration: none;
+}
+#logo{
+  /*width: 100%;*/
+  position: relative;
+}
+#logo img{
+  width: 100%;
+  height: auto;
+}
+#logo .content{
+  width: 100%;
+  position: absolute;
+  bottom: 40px;
+  height: 136px;
+}
+#logo .content .hd{
+  display: block;
+  width: 163px;
+  height: 45px;
+  border: 1px solid #f15a21;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 16px;
+  line-height: 45px;
+}
+#logo .content .cal{
+  width: 492px;
+  height: 53px;
+  margin: 0 auto;
+  line-height: 58px;
+}
+#logo .content .cal img{
+  width: 18px;
+  height: 18px;
+}
+#logo .content .cal span{
+  color: white;
+}
+
+/*--------content---------*/
+
+
+/*------nav-----*/
+.list{
+  position: relative;
+  width: 100%;
+  top: 0;
+  /*height: 3000px;*/
+}
+.nav{
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #f15a21;
+  background-color: #252434;
+  z-index: 300;
+  top: 0;
+}
+.nav ul{
+  width: 756px;
+  height: 60px;
+  margin: 0 auto;
+  padding-left: 0;
+}
+.nav ul li {
+  width: 108px;
+  height: 42px;
+  float: left;
+  list-style: none;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 18px;
+  cursor: pointer;
+  color: white;
+}
+
+/*----guest---*/
+.guest{
+  width: 1180px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 30px 25px;
+  /*border: 1px solid white;*/
+}
+.guest span{
+  width: 100%;
+  height: 70px;
+  float: left;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.guest div{
+  width: 140px;
+  height: 190px;
+  float: left;
+  text-align: center;
+  margin: 25px;
+  font-size: 14px;
+  color: white;
+  /*border: 1px solid white;*/
+}
+.guest div img{
+  width: 120px;
+  height: 140px;
+  margin: 10px;
+  float: left;
+  transition: all 0.2s ease-in;
+
+}
+
+.guest div img:hover{
+   width: 150px;
+   height: 170px;
+   margin: 2px;
+   /*margin-right: 10px;*/
+   margin-left: -6px;
+}
+.guest div:hover .hh{
+   color:#f15a21;
+}
+.guest div:hover .ss{
+   color:#f15a21;
+}
+.guest div .ss{
+  margin: 0;
+  font-size: 20px;
+}
+.guest div .hh{
+  font-size: 14px;
+  color: white;
+  height: 30px;
+}
+
+/*-----大日会程-----*/
+.calendar{
+  width: 100%;
+  height: 940px;
+  border-top: 1px solid #f15a21;
+}
+.calendar span{
+  display: block;
+  width: 100%;
+  height: 70px;
+  /*float: left;*/
+  padding: 30px 0;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.mor_after{
+  width: 1180px;
+  height: 90px;
+  margin: 0 auto;
+}
+.mor_after div:nth-child(1){
+  border-right: 2px solid #252434;
+}
+.mor_after div{
+  width: 589px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 10px;
+  background-color: #f15a21;
+  float: left;
+}
+.cal_list{
+  width: 1180px;
+  /*height: 90px;*/
+  margin: 0 auto;
+  overflow: hidden;
+}
+.cal_list .mor_after_div{
+   width: 590px;
+   height: 731px;
+   float: left;
+   padding-top: 30px;
+   padding-left: 30px;
+   border: 1px solid #252434;
+   box-sizing: border-box;
+   color: white;
+}
+.mor_after_div img{
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+.mor_after_div p{
+  margin: 5px 18px;
+}
+
+
+/*-----在线抢票-----*/
+.ticket{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 60px;
+  border-top:1px solid #f15a21;
+}
+.ticket span:nth-child(1){
+  width: 100%;
+  height: 70px;
+  display: block;
+  /*float: left;*/
+  padding: 30px 0px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.ticket div{
+  width: 1180px;
+  height: 200px;
+  margin:  0 auto;
+  padding:  30px 20px;
+}
+/*--交通指南--*/
+
+.transportation{
+ width: 100%;
+ height: 700px;
+ border-top: 1px solid #f15a21;
+}
+.transportation span{
+  width: 100%;
+  display: block;
+  height: 70px;
+  font-size: 30px;
+  padding: 30px 0px;
+  text-align: center;
+  color: white;
+}
+.transportation div{
+  width: 1180px;
+  height: 680px;
+  margin: 0 auto;
+  padding: 30px 25px;
+  border: 1px solid rgba(255,255,255,0);
+  box-sizing: border-box;
+  position: relative;
+}
+.transportation div img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*-----合作伙伴-----*/
+.partners{
+  width: 100%;
+  /*height: 800px;*/
+  border-top: 1px solid #f15a21;
+}
+.partners span{
+  width: 100%;
+  display: block;
+  height: 70px;
+  font-size: 30px;
+  padding: 30px 0px;
+  text-align: center;
+  color: white;
+}
+.partners div{
+  width: 1000px;
+  /*height: 750px;*/
+  margin: 0 auto;
+  padding: 30px 25px;
+}
+.partners img{
+  width: 900px;
+  height: auto;
+  margin: 0 auto;
+}
+/*--联系我们---*/
+
+.contract{
+  width: 100%;
+  height: 200px;
+  border-top: 1px solid #f15a21;
+}
+.contract span{
+  width: 100%;
+  display: block;
+  height: 70px;
+  font-size: 30px;
+  padding: 30px 0px;
+  text-align: center;
+  color: white;
+}
+.contract div{
+  width: 800px;
+  height: 100px;
+  margin: 0px auto;
+  /*padding: 30px 25px;*/
+  overflow: hidden;
+  margin-top: -50px;
+}
+.contract div .ss{
+  font-size: 20px;
+  width: 400px;
+  float: left;
+}
+#ll{
+  display: block;
+  width: 108px;
+  height: 18px;
+  font-size: 12px;
+  color: white;
+  margin-left: 7px;
+}
+#dddd{
+  /*height: 15px;
+  width: 15px;*/
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 800px;
+}

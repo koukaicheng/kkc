@@ -1,0 +1,154 @@
+/*公众样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Lantinghei SC', 'Open Sans', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+	background-color: #f7f7f7;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+span{
+	display: block;
+}
+/*导航栏*/
+#nav{
+	width: 100%;height: 60px;
+	background-color: #252729;
+	font-size: 12px;color: white;
+	position: fixed;
+	top: 0px;
+	z-index: 300;
+}
+#nav .nav_center{
+	width: 95%;
+	margin: 0 auto;
+}
+#nav .nav_center .nav_logo{
+	height: auto;width: 140px;
+	float: left;
+	padding: 10px 0 0 0;
+}
+#nav .nav_center .nav_logo img{
+	height: auto;width: 100%;
+}
+#nav .nav_center .nav_left{
+	float: left;
+	width: 450px;
+	margin-left: 40px;
+}
+#nav .nav_center .nav_left li{
+	float: left;
+	font-size: 14px;
+	color: white;
+	padding: 20px 10px;
+	cursor: pointer;
+}
+#nav .nav_center .nav_left li a{
+	width: 100%;height: 100%;
+	font-size: 14px;
+	color: white;
+}
+#nav .nav_center .nav_left li .caret{
+	width: 5px;
+	height: 5px;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	float: right;
+	margin: 5px;
+	transition: transform 0.2s ease-out;
+	transform: rotateZ(-45deg);
+}
+#nav .nav_center .nav_left li .rzfu_menu{
+	width: 120px;
+	background-color: #252729;
+	border: 1px solid #333;
+	border-radius: 5px;
+	margin: 0;
+	margin-left: -20px;
+	position: absolute;
+	top: 58px;
+	height: 0;
+	display: none;
+}
+#nav .nav_center .nav_left li .rzfu_menu li{
+	position: relative;
+	width: 120px;height: 27px;
+	float: left;
+	padding: 0px;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+#nav .nav_center .nav_left li .rzfu_menu a:hover{
+	color:rgb(228,82,46);
+}
+#nav .nav_center .nav_left li .pphd_menu{
+	width: 120px;height: 0;
+	background-color: #252729;
+	border: 1px solid #333;
+	border-radius: 5px;
+	margin: 0;
+	margin-left: -20px;
+	position: absolute;
+	top: 58px;
+	display: none;
+}
+#nav .nav_center .nav_left li .pphd_menu li{
+	position: relative;
+	width: 120px;height: 27px;
+	float: left;
+	padding: 0px;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+#nav .nav_center .nav_left li .pphd_menu a:hover{
+	color:rgb(228,82,46);
+}
+#nav .nav_center .nav_right{
+	float: right;
+}
+#nav .nav_center .nav_right a{
+	float: right;
+	width: 100px;height: 24px;
+	border: 1px solid rgb(228,82,46);
+	color: rgb(228,82,46);
+	text-align: center;
+	font-size: 14px;
+	margin: 17px 0 17px 20px;
+	line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

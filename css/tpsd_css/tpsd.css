@@ -1,0 +1,209 @@
+/*公共样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Lantinghei SC', 'Open Sans', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+	background-color: #f7f7f7;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+span{
+	display: block;
+}
+/*导航栏*/
+#nav{
+	width: 100%;height: 60px;
+	background-color: #252729;
+	position: fixed;
+	top: 0;
+	z-index: 1200;
+}
+#nav .nav_center{
+	width: 1180px;height: 40px;
+	padding: 10px;
+	margin: 0 auto;
+}
+#nav .nav_center .nav_logo{
+	width: 140px;height: auto;
+	float: left;
+}
+#nav .nav_center .nav_logo img{
+	width: 100%;height: auto;
+}
+#nav .nav_center .nav_search{
+	width: 180px;height: 20px;
+	border: 1px solid #fff;
+	border-radius: 11px;
+	float: left;
+	margin-left: 33%;margin-top: 10px;
+}
+#nav .nav_center .nav_search img{
+	width: 12px;height: 12px;
+	margin: 4px 6px;
+}
+#nav .nav_center .nav_search input{
+	width: 140px;
+	position: relative;
+	top: -5px;
+	outline: none;
+	border: none;
+	color: white;
+	background-color: #252729;
+	font-size: 12px;
+}
+#nav .nav_center .nav_personal{
+	width: 240px;height: 30px;
+	padding: 10px 0px;
+	float: right;
+	color: white;
+}
+#nav .nav_center .nav_personal a{
+	color: white;
+	font-size: 12px;
+	margin: 0px 10px;
+	float: right;
+}
+/*内容*/
+#content{
+	width: 100%;
+	position: relative;
+	margin-top: 60px;
+	padding: 20px 0px;
+}
+#content .title{
+	width: 1080px;height: 160px;
+	margin: 0px auto;
+	background-color: white;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+}
+#content .title ul{
+	width: 800px;height: 160px;
+	background-color: #ef5a34;
+	float: left;
+	z-index: 200;
+}
+#content .title ul li{
+	width: 160px;height: 160px;
+	float: left;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+#content .title ul .active{
+	background-color: white;
+	background-image: url(../../img/tpsd_img/border.png);
+	background-size: cover;
+	height: 171px;
+	color: #EF5A34;
+}
+#content .title ul li img{
+	margin: 40px 60px 10px 60px;
+}
+#content .title .apply{
+	width: 280px;height: 100px;
+	border: none;
+	background-color: rgb(239,115,87);
+	float: left;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 60px;
+}
+#content .title .detail{
+	width: 100%;height: 100px;
+	float: left;
+	display: none;
+}
+#content .title .detail span{
+	width: 178px;height: 35px;
+	padding-top: 15px;
+	float: left;
+	color: black;
+	text-align: center;
+	cursor: pointer;
+}
+#content .total{
+	width: 1080px;height: 20px;
+	margin: 10px auto;
+}
+#content .total span{
+	color: #EF5A34;
+	display: inline-block;
+}
+#content .list{
+	width: 1080px;
+	margin: 10px auto;
+}
+#content .list a{
+	color: black;
+	display: inline-block;
+	/*float: left;*/
+} 
+#content .list a:hover span{
+	background-color: #EF5A34;
+	color: white;
+}
+#content .list .list_content{
+	width: 240px;height: 300px;
+	margin: 20px 30px 10px 0px;
+	display: inline-block;
+	background-color: white;
+	border: 1px solid #F7F7F7;
+	box-sizing: border-box;
+}
+#content .list .list_logo{
+	width: 240px;height: 160px;
+	overflow: hidden;
+}
+#content .list .list_logo img{
+	width: 100%;height: 100%;
+}
+#content .list h3{
+	/*text-align: center;*/
+	font-weight: 100;
+	font-size: 16px;
+	margin: 10px;
+}
+#content .list p{
+	font-size: 12px;
+	margin: 10px;
+	margin-top: 0px;
+	height: 48px;
+	overflow: hidden;
+}
+#content .list span{
+	font-size: 12px;
+	margin: 0px 10px;
+	color: #f80;
+	padding: 0px 5px;
+	border: 1px solid #f80;
+	display: inline-block;
+}
+#content .list .keyword{
+	float: right;
+	max-width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,123 @@
+ul,li{
+  margin: 0;
+  padding: 0;
+}
+#content{
+  width: 970px;
+  margin: 60px auto;
+  padding: 40px 0px;
+}
+#content .title{
+   width: 98%;
+   height: 94px;
+   border-bottom: 1px solid #ddd;
+   margin: auto;
+}
+#content .title span{
+  font-size: 18px;
+  font-weight: 200;
+}
+#content .title p{
+  font-size: 13px;
+  margin-top: 15px;
+}
+#daoshi{
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+#daoshi li{
+  width: 157px;
+  height: 206px;
+  float: left;
+  margin: 2px;
+  position: relative;
+  cursor: pointer;
+}
+#daoshi li img{
+  width: 135px;
+  height: 180px;
+  margin: 11px;
+}
+#daoshi li .dd{
+  width: 135px;
+  height: 27px;
+  position: absolute;
+  bottom: 13px;
+  left: 11px;
+  background-color: rgb(228,82,46);
+  text-align: center;
+}
+#daoshi li .dd span{
+  font-size: 9px;
+  display: inline-block;
+  color: white;
+}
+#daoshi li .ss{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 70px;
+  -webkit-transform: rotate(-45deg);
+  background-color: rgb(228,82,46);
+  bottom: 8px;
+  display: none;
+}
+#daoshi li .gzly{
+  font-size: 10px;
+  display: none;
+
+}
+#daoshi li .tzje{
+  display: none;
+}
+#daoshi .det{
+  display: none;
+  position: relative;
+}
+#daoshi .det .ziwei{
+  color: rgb(228,82,46);
+  margin: 0px 20px;
+  font-size: 12px;
+  display: inline-block;
+}
+#daoshi .det .zz{
+  display: inline-block;
+  font-size: 12px;
+}
+#daoshi .det .gg{
+  color: rgb(228,82,46);
+  margin: 0px 20px;
+  font-size: 12px;
+  display: inline-block;
+}
+#daoshi .det p{
+  width: 909px;
+  height: 54px;
+  margin: 10px 20px;
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 400;
+}
+#daoshi .det .gzly{
+  display: inline-block;
+  font-size: 10px;
+  /*font-weight: bold;*/
+}
+#daoshi .det .tzje{
+  color: rgb(228,82,46);
+  margin: 0px 20px;
+  font-size: 12px;
+  display: inline-block;
+}
+#daoshi .det .wc{
+  display: inline-block;
+  font-size: 10px;
+}
+#daoshi .det .xx{
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  cursor: pointer;
+}

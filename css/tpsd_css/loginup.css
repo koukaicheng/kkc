@@ -1,0 +1,61 @@
+body{
+	margin: 0px;
+	padding:0px;
+  font-family:'Lantinghei SC', 'Open Sans', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+	background-color:#f7f7f7;
+}
+* { margin:0; padding:0; }
+p{font-size: 12px}
+a{text-decoration: none}
+li{list-style: none}
+ 
+/*导航*/
+.nav{position: fixed;width:100%;height:60px;background-color:#252729;top:0px;z-index:1200}
+.nav_center{width:1180px;padding:10px;height:40px;margin:0px auto;}
+.nav_logo{height:auto;width:140px;float:left;}
+.nav_logo img{height:auto;width:100%}
+.nav_search{  margin-left:33%;height:20px;width:180px;border:1px solid #fff;border-radius: 11px;float:left;margin-top: 10px;}
+.nav_search img{width:12px;height:12px;margin:4px 6px}
+.nav_search input{position: relative;top: -5px;width: 140px;outline:none;border:none;color:white;background-color:#252729;font-size:12px}
+.nav_personal{float:right;height:30px;padding: 10px 0px;color:white;width:240px}
+.nav_personal span{color:white;font-size: 14px;margin: 3px 10px;float:left;cursor: pointer}
+.nav_personal div{width: 140px;float: right;}
+.nav_personal img{width:24px;height:24px;float:left}
+.select_module{width:102px;height:120px;position:absolute;background-color:#252729;top: 60px;display: none;margin-left:30px}
+.select_module li{border:1px solid black;width:100px;height:23px;font-size:12px;color:white;text-align: center;padding-top:5px}
+.nav_personal a{color:white;font-size:12px;margin:0px 10px;float:right}
+.nav_personal li a{text-align: center;float: inherit;}
+
+/*footer*/
+footer{height:200px;width:100%;background-color:#252729;color:white;font-size:12px;z-index: 200;position: relative}
+footer .foot{height:170px;width:100%;}
+footer .bottom{height:24px;width:100%;background-color:black;text-align: center;padding-top:6px}
+footer .foot .foot_center{width:1180px;margin:0px auto;}
+footer .foot .foot_center ul{width:405px;height:15px;padding:25px 0px}
+footer .foot .foot_center ul a li{height:15px;float:left;border-right:1px solid white;padding: 0px 7px;color:white;cursor: pointer}
+footer .foot .foot_center ul a:nth-child(5) li{border-right:none}
+footer .foot .foot_center ul a:nth-child(1) li{padding-left:0px}
+footer .foot .foot_center p{line-height: 2}
+footer .foot .foot_center .left{width:700px;float:left}
+footer .foot .foot_center .right{width:480px;float:left}
+footer .foot .foot_center .right .code{width:110px;height:110px;float:right;padding-top:20px;text-align: right}
+footer .foot .foot_center .right .code img{float:right;width:90px;padding:5px;background-color: white;margin:5px}
+
+
+.content{position:absolute;width:100%;top:60px;bottom:0px}
+.content .login_module{width:40%;height:100%;float:left;overflow: hidden}
+.content .advertisement{width:60%;height:100%;float:left;background-color:black;}
+.content .advertisement img{width:100%;height:100%;}
+.content .login_module form{position:relative;width:80%;height:600px;margin:0px auto;top:50%;margin-top:-200px;text-align: center;}
+.content .login_module form h2{margin:20px auto;color:#ef5a34;}
+.content .login_module form span{font-size: 14px;font-weight: 500;}
+.content .login_module form p{margin:10px 0px 20px 0px}
+.content .login_module form div{height:30px;width:100%;margin-top:10px}
+.content .login_module form div label{color:#ef5a34;margin:0px 15px}
+.content .login_module form div a{color:black}
+.content .login_module form div input{width:240px;outline:none;border:none;height:28px;border:1px solid #eee;font-size: 15px;padding:0px 10px}
+.content .login_module form div input:focus{border:1px solid #ef5a34}
+.content .login_module a{font-size: 12px;text-decoration: underline;cursor: pointer}
+.content .login_module form #submit{width:110px;height:34px;border-radius: 5px;background-color:#ef5a34;color:white;margin:20px auto;font-size: 15px;cursor: pointer}
+input[type="submit"]{border:none;background:none;cursor:pointer;}
+.content .login_module form small{color:#ef5a34;font-size: 12px;}

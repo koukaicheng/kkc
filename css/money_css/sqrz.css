@@ -1,0 +1,130 @@
+/*公众样式*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Lantinghei SC', 'Open Sans', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+	background-color: #f7f7f7;
+	line-height: 1.846;
+	color: #666666;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+span{
+	display: block;
+}
+/*主体内容*/
+#wrap{
+	width: 100%;
+	background-image:url(../../img/money_img/素材4.png);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	position: absolute;
+	top: 0;
+}
+.content{
+	width: 50%;
+	margin: 30px auto;
+	background-color: rgba(255,255,255,0.9);
+	overflow-x:hidden;
+	padding: 0px 15px;
+}
+.content .form_title{
+	width: 100%;height: 100px;
+	text-align: center;
+	font-size: 26px;
+	position: relative;
+	padding: 20px;
+	color: #EF5A34;
+}
+form div{
+	width: 80%;
+	font-size: 16px;
+	margin-left: 10%;
+	margin-bottom: 30px;
+}
+form div label{
+	width: 220px;max-width: 100%;
+	font-size: 16px;
+	font-weight: 400;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+input[type="radio"]{
+	position: relative;
+	margin-top: 6px;
+	margin-right: 4px;
+	vertical-align: top;
+	border: none;
+	background-color: transparent;
+	appearance: none;
+	cursor: pointer;
+}
+input[type="text"]{
+	width: 100%;
+	height: 30px;
+	border-radius: 4px;
+	margin: 5px auto;
+	padding: 0px 10px;
+	border: #ccc 1px solid;
+}
+input[type="submit"]{
+	width: 100%;
+	height: 40px;
+	margin: 20px auto;
+	text-align: center;
+	-webkit-appearance: button;/*谷歌浏览器兼容*/
+	cursor: pointer;
+}
+input[type="file"] {
+    display: block;
+    height: 29px;
+   width: 270px;
+   font-size: 16px;
+}
+form div .special{
+	width: 100%;
+}
+form div .special span{
+	font-weight: 300;
+	color: #777;
+	font-size: 14px;
+	width: 95%;
+	float: right;
+}
+form div select{
+	width: 100%;height: 30px;
+	outline: none;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	padding: 0px 10px;
+}
+/*底部*/
+.bar_bottom{
+	height: 90px;width: 90%;
+	margin-left: 5%;
+}
+.bar_bottom .topic a {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    color: #ff5100;
+    font-size: 13px;
+}
+.bar_bottom .num {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    font-size: 13px;
+}

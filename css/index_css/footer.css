@@ -1,0 +1,77 @@
+
+/*底部*/
+#footer{
+	width: 100%;height: 200px;
+	background-color: #252729;
+	color: white;
+	font-size: 12px;
+	z-index: 200;
+	position: relative;
+}
+#footer .content{
+	width: 100%;height: 170px;
+}
+#footer .content .content_center{
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#footer .content .content_center .left1{
+	width: 450px;
+	float:left;
+	margin-top: 10px;
+}
+#footer .content .content_center .left1 ul{
+	width: 405px;height: 15px;
+	padding: 25px 0;
+}
+#footer .content .content_center .left1 ul a:nth-child(1) li{
+	padding-left: 0px;
+}
+#footer .content .content_center .left1 ul a:nth-child(5) li{
+	border-right: none;
+}
+#footer .content .content_center .left1 ul li{
+	height: 15px;
+	float: left;
+	border-right: 1px solid white;
+	padding: 0 7px;
+	color: white;
+}
+#footer .content .content_center .left1 p{
+	margin: 12px 0;
+}
+#footer .content .content_center .right{
+	width: 120px;float: right;
+}
+#footer .content .content_center .right .code{
+	width: 110px;height: 110px;
+	float: right;
+	padding-top: 20px;
+	text-align: right;
+}
+#footer .content .content_center .right .code img{
+	float: right;
+	width: 90px;
+	padding: 5px;
+	background-color: white;
+	margin: 5px;
+}
+#footer .bottom{
+	height: 24px;width: 100%;
+	background-color: black;
+	text-align: center;
+	padding-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

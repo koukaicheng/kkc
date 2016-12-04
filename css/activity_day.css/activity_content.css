@@ -1,0 +1,169 @@
+#main {
+	width: 1080px;
+	margin: 40px auto;
+	background-color: white;
+	box-shadow: 0px 0px 5px #bbb;
+	margin-top: 90px;
+}
+
+#main .category_choose {
+	width: 900px;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+#main .category_choose select {
+	width: 20%;
+	height: 30px;
+	float: left;
+	margin-right: 20%;
+	outline: none;
+	border: 1px solid #eee;
+}
+
+
+/*活动详情*/
+
+#hdxq {
+	width: 1080px;
+	margin: 40px auto;
+	box-shadow: 0px 0px 0px #bbb;
+	margin-top: 35px;
+}
+
+#hdxq .hdxq_list {
+	width: 900px;
+	height: 60px;
+	margin: 0 auto;
+	border-bottom: 1px solid #eee;
+	padding: 30px 0px;
+	cursor: pointer;
+}
+
+#hdxq .hdxq_list .hdxq_date {
+	width: 130px;
+	height: 50px;
+	background-color: #f3f3f3;
+	color: rgb(228, 82, 46);
+	float: left;
+	margin-right: 40px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 50px;
+}
+
+#hdxq .hdxq_list .hdxq_title {
+	color: black;
+	font-weight: bold;
+	font-size: 1.17em;
+}
+
+#hdxq .hdxq_list .hdxq_sort {
+	display: inline-block;
+	height: 18px;
+	background: #F3F3F3;
+	color: rgb(228, 82, 46);
+	font-size: 12px;
+	margin-right: 40px;
+	padding: 0px 20px;
+	margin-top: 20px;
+}
+
+#hdxq .hdxq_list .hdxq_img {
+	margin: 0px 10px;
+	margin-left: 20px;
+}
+
+#hdxq .hdxq_list .hdxq_address {
+	font-size: 14px;
+	color: #666;
+	display: inline;
+}
+
+#hdxq .hdxq_list .hdxq_state {
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	float: right;
+	margin: 10px 0px;
+	outline: none;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgb(228, 82, 46);
+	color: white;
+	font-size: 12px;
+	line-height: 30px;
+	margin-top: -17px;
+}
+
+#hdxq .hdxq_list:hover .hdxq_date {
+	background-color: rgb(228, 80, 46);
+	color: white;
+}
+
+#hdxq .hdxq_list:hover .hdxq_title {
+	color: rgb(228, 80, 46);
+}
+
+#hdxq .hdxq_a {
+	width: 300px;
+	height: 24px;
+	margin: 50px auto;
+	border: 1px solid #ddd;
+	text-align: center;
+	padding-top: 6px;
+	font-size: 14px;
+	color: #333;
+	cursor: pointer;
+}
+
+#main .tcdPageCode {
+	width: 100%;
+	height: 50px;
+	padding: 15px 20px;
+	text-align: left;
+	color: #ccc;
+	text-align: center;
+}
+
+#main .tcdPageCode a {
+	display: inline-block;
+	color: black;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+#main .tcdPageCode a:hover {
+	text-decoration: none;
+}
+
+#main .tcdPageCode span.current {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #fff;
+	background-color: rgb(228,82,46);
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+#main .tcdPageCode span.disabled {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #bfbfbf;
+	background: #f2f2f2;
+	border-radius: 4px;
+	vertical-align: middle;
+}

@@ -1,0 +1,302 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.total_banner{
+	height: 140px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+	background-image: url(../../../php/img/enterProject/555.jpg);
+	color: #e7b92f;
+	margin-top: 60px;
+}
+.total_banner h1{
+	font-size: 20px;
+	display: inline-block;
+}
+.total_banner h1 span{
+	color: red;
+	display: inline-block;
+}
+.total_banner a{
+	color: #E7B92F;
+	text-align: center;
+	cursor: pointer;
+}
+.total_banner a h1:nth-child(1){
+	width: 220px;
+	margin: 0 auto;
+	border-bottom: 1px solid #E7B92F;
+	display: inline-block;
+}
+/*--------*/
+.total_title{
+	width: 1080px;
+	height: 150px;
+	margin: 10px auto;
+	background-color: rgb(228,82,46);
+	overflow: hidden;
+}
+.total_title div{
+	float: left;
+	width: 110px;
+	height: 120px;
+	text-align: center;
+	color: white;
+	margin: 15px 120px;
+	font-size: 16px;
+}
+.total_title div img{
+	margin-bottom: 5px;
+	cursor: pointer;
+	width: 100px;
+	height: auto;
+}
+.total_industry{
+	width: 1090px;
+	margin: 10px auto;
+	height: 700px;
+	display: block;	
+	overflow: hidden;
+}
+.total_city{
+	width: 1080px;
+	margin: 10px auto;
+	margin-bottom: 30px;
+	display: none;
+	height: 560px;
+}
+.total_progress{
+	width: 1090px;
+	margin: 10px auto;
+	margin-bottom: 30px;
+	height: 560px;
+	display: none;
+}
+.total_industry .dd{
+	position: relative;
+	width: 262.5px;
+	height: 150px;
+	overflow: hidden;
+	float: left;
+	margin: 5px;
+	cursor: pointer;
+}
+.total_industry .dd img{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	transition: transform .3s;
+}
+.total_industry .dd:hover img{
+	transform: scale(1.2);
+}
+.total_industry .dd .dd2{
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 50px;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.total_progress a div{
+	margin: 0px 5px;
+	width: 208px;
+	float: left;
+	height: 560px;
+	background: antiquewhite;
+	text-align: center;
+    cursor: pointer;
+    background-image: url(../../../php/img/enterProject/未融资.png);
+    position: relative;
+}
+.total_progress a div:hover img{
+	animation: mymove 0.5s infinite;
+}
+.total_progress a div img{
+	margin: 120px 69px 10px 69px ;
+	transition: transform .2s;
+}
+.total_progress a div h1{
+	position: absolute;
+	bottom: 240px;
+	height: 68px;
+	color: white;
+	width: 160px;
+	left: 28px;
+	text-align: center;
+}
+.total_progress a div span{
+	font-size: 28px;
+	color: #E7B92F;
+	font-weight: 900;
+	position: absolute;
+	bottom: 170px;
+	left: 39%;
+}
+.total_city div{
+	position: relative;
+	width: 100%;
+	margin-bottom: 10px;
+	height: 180px;
+	overflow: hidden;
+	cursor: pointer;
+	background: url();
+}
+.total_city div:hover .ii{
+	transform: scale(1.2);
+}
+.total_city div img{
+	transition: transform .3s;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.total_city div .dd{
+	position: absolute;
+	left: 170px;
+	right: 0;
+	bottom: -10px;
+	width: 720px;
+	height: 120px;
+	font-size: 24px;
+	color: white;
+	z-index: 10;
+}
+.total_city div .dd img{
+	height: auto;
+	width: 45px;
+	float: left;
+	z-index: 100;
+	margin-left: 20px;
+}
+.total_city div .dd span{
+	color: white;
+	font-size: 24px;
+	margin-left: 88px;
+	margin-top: 10px;
+}
+.total_city div .dd strong{
+	display: block;
+	width: 210px;
+	height: 63px;
+	float: right;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-size: 18px;	
+	text-align: right;	
+}
+.total_city div .dd strong span{
+	font-size: 26px;
+     color: #e7b92f;
+     float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes mymove
+{
+	0%   {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+	}
+	25%  {
+		transform:rotate(10deg);
+		-ms-transform:rotate(10deg);
+		-moz-transform:rotate(10deg);
+		-webkit-transform:rotate(10deg);
+		-o-transform:rotate(10deg);
+	}
+	50%  {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+	}
+	75%  {
+		transform:rotate(-10deg);
+		-ms-transform:rotate(-10deg);
+		-moz-transform:rotate(-10deg);
+		-webkit-transform:rotate(-10deg);
+		-o-transform:rotate(-10deg);
+	}
+	100% {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+	}
+}
+
+@-moz-keyframes mymove /* Firefox */
+{
+	0%   {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+	}
+	25%  {
+		transform:rotate(10deg);
+		-ms-transform:rotate(10deg);
+		-moz-transform:rotate(10deg);
+		-webkit-transform:rotate(10deg);
+		-o-transform:rotate(10deg);
+	}
+	50%  {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+	}
+	75%  {
+		transform:rotate(-10deg);
+		-ms-transform:rotate(-10deg);
+		-moz-transform:rotate(-10deg);
+		-webkit-transform:rotate(-10deg);
+		-o-transform:rotate(-10deg);
+	}
+	100% {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+	}
+}

@@ -1,0 +1,370 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+body{
+  background: #000;
+}
+#lunbo{
+  width: 80%;
+  margin: 30px auto;
+}
+.swiper-container {
+       width: 100%;
+
+  }
+#content{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+#content .left{
+  width: 48%;
+  float: left;
+  margin-bottom: 30px;
+}
+#content .left img{
+  width: 100%;
+  height: 102%;
+}
+
+
+#content .right{
+  width: 24%;
+  float: left;
+  overflow: hidden;
+  margin-left: 45px;
+  position: relative;
+}
+#content .zuo{
+  width: 24%;
+  float: right;
+  overflow: hidden;
+  /*margin-left: 15px;*/
+  position: relative;
+  margin-right: -25px;
+}
+#content .right .rigg{
+  width: 91%;
+  position: relative;
+  overflow: hidden;
+}
+#content .zuo .rigg{
+  width: 91%;
+  position: relative;
+  overflow: hidden;
+}
+#content .right .rigg1{
+  width: 91%;
+  position: relative;
+  margin-top: 18%;
+  overflow: hidden;
+}
+#content .zuo .rigg1{
+  width: 91%;
+  position: relative;
+  margin-top: 18%;
+  overflow: hidden;
+}
+#content .right .rigg .right1{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#content .zuo .rigg .right1{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#content .right .rigg1 .right2{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#content .zuo .rigg1 .right2{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#content .right .rigg:hover .rig1{
+ z-Index: 0;
+}
+#content .right .rigg:hover .right1 {
+  bottom: 50px;
+}
+#content .right .rigg1:hover .rig2{
+ z-Index: 0;
+}
+#content .right .rigg1:hover .right2 {
+  bottom: 50px;
+}
+#content .zuo .rigg1:hover .rig2{
+ z-Index: 0;
+}
+#content .zuo .rigg1:hover .right2 {
+  bottom: 50px;
+}
+#content .zuo .rigg:hover .rig1{
+ z-Index: 0;
+}
+#content .zuo .rigg:hover .right1 {
+  bottom: 50px;
+}
+
+#content .right .rigg1 .rig1{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-Index: -1;
+  color: white;
+  height: 50px;
+  /*padding: 5px;*/
+  font-size: 18px;
+  background-color: #303030;
+}
+#content .zuo .rigg1 .rig1{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-Index: -1;
+  color: white;
+  height: 50px;
+  /*padding: 5px;*/
+  font-size: 18px;
+  background-color: #303030;
+}
+#content .right .rigg .rig1{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-Index: -1;
+  color: white;
+  height: 50px;
+  font-size: 18px;
+  background-color: #303030;
+}
+#content .zuo .rigg .rig1{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-Index: -1;
+  color: white;
+  height: 50px;
+  font-size: 18px;
+  background-color: #303030;
+}
+#content .right img{
+  width: 100%;
+  float: left;
+}
+#content .zuo img{
+  width: 100%;
+  float: left;
+}
+@media screen and (max-width: 960px) {
+  #content .left{width: 100%}
+  #content .right{width: 100%;margin-top: 15px;margin-left:0;}
+  #content .right .rigg{width: 48%;float: left;}
+  #content .right .rigg1{width: 48%;float: right;margin-top:0;}
+
+  #content .zuo{width: 100%;margin-top: 15px;margin-right: 0;}
+  #content .zuo .rigg{width: 48%;float: left;}
+  #content .zuo .rigg1{width: 48%;float: right;margin-top:0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ll{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+/*#ll .left{
+  width: 48%;
+  float: right;
+  margin-bottom: 30px;
+}
+#ll .left img{
+  width: 100%;
+  height: 102%;
+}*/
+
+
+#ll .right{
+  width: 24%;
+  float: left;
+  overflow: hidden;
+  margin-right: 25px;
+  position: relative;
+}
+#ll .zuo{
+  width: 24%;
+  float: left;
+  overflow: hidden;
+  /*margin-left: 15px;*/
+  position: relative;
+  margin-right: -25px;
+}
+#ll .right .rigg{
+  width: 91%;
+  position: relative;
+  overflow: hidden;
+}
+#ll .zuo .rigg{
+  width: 91%;
+  position: relative;
+  overflow: hidden;
+}
+#ll .right .rigg1{
+  width: 91%;
+  position: relative;
+  margin-top: 18%;
+  overflow: hidden;
+}
+#ll .zuo .rigg1{
+  width: 91%;
+  position: relative;
+  margin-top: 18%;
+  overflow: hidden;
+}
+#ll .right .rigg .right1{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#ll .zuo .rigg .right1{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#ll .right .rigg1 .right2{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#ll .zuo .rigg1 .right2{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#ll .right .rigg:hover .rig1{
+ z-Index: 0;
+}
+#ll .right .rigg:hover .right1 {
+  bottom: 50px;
+}
+#ll .right .rigg1:hover .rig2{
+ z-Index: 0;
+}
+#ll .right .rigg1:hover .right2 {
+  bottom: 50px;
+}
+#ll .zuo .rigg1:hover .rig2{
+ z-Index: 0;
+}
+#ll .zuo .rigg1:hover .right2 {
+  bottom: 50px;
+}
+#ll .zuo .rigg:hover .rig1{
+ z-Index: 0;
+}
+#ll .zuo .rigg:hover .right1 {
+  bottom: 50px;
+}
+
+#ll .right .rigg1 .rig1{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-Index: -1;
+  color: white;
+  height: 50px;
+  /*padding: 5px;*/
+  font-size: 18px;
+  background-color: #303030;
+}
+#ll .zuo .rigg1 .rig1{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-Index: -1;
+  color: white;
+  height: 50px;
+  /*padding: 5px;*/
+  font-size: 18px;
+  background-color: #303030;
+}
+#ll .right .rigg .rig1{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-Index: -1;
+  color: white;
+  height: 50px;
+  font-size: 18px;
+  background-color: #303030;
+}
+#ll .zuo .rigg .rig1{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-Index: -1;
+  color: white;
+  height: 50px;
+  font-size: 18px;
+  background-color: #303030;
+}
+#ll .right img{
+  width: 100%;
+  float: left;
+}
+#ll .zuo img{
+  width: 100%;
+  float: left;
+}
+#ll .left{
+  width: 48%;
+  float: left;
+  margin-bottom: 30px;
+  margin-left:10px;
+
+}
+#ll .left img{
+  width: 100%;
+  height: 102%;
+}
+@media screen and (max-width: 960px) {
+  #ll .left{width: 100%;margin-left: 0;}
+  #ll .right{width: 100%;margin-top: 15px;margin-left:0;}
+  #ll .right .rigg{width: 48%;float: left;}
+  #ll .right .rigg1{width: 48%;float: right;margin-top:0;}
+
+  #ll .zuo{width: 100%;margin-top: 15px;margin-right: 0;}
+  #ll .zuo .rigg{width: 48%;float: left;}
+  #ll .zuo .rigg1{width: 48%;float: right;margin-top:0;}
+
+}
